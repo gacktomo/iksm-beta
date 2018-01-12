@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  result: MyString
+  kill: 1
+  death: 1
+  assist: 1
+  special: 1
+  weapon_id: 1
+  udemae: MyString
+  stage_id: 1
+  rule: MyString
+  user_id: MyString
+
+two:
+  result: MyString
+  kill: 1
+  death: 1
+  assist: 1
+  special: 1
+  weapon_id: 1
+  udemae: MyString
+  stage_id: 1
+  rule: MyString
+  user_id: MyString

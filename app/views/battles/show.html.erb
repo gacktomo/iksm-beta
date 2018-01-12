@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Result:</strong>
+  <%= @battle.result %>
+</p>
+
+<p>
+  <strong>Kill:</strong>
+  <%= @battle.kill %>
+</p>
+
+<p>
+  <strong>Death:</strong>
+  <%= @battle.death %>
+</p>
+
+<p>
+  <strong>Assist:</strong>
+  <%= @battle.assist %>
+</p>
+
+<p>
+  <strong>Special:</strong>
+  <%= @battle.special %>
+</p>
+
+<p>
+  <strong>Weapon:</strong>
+  <%= @battle.weapon_id %>
+</p>
+
+<p>
+  <strong>Udemae:</strong>
+  <%= @battle.udemae %>
+</p>
+
+<p>
+  <strong>Stage:</strong>
+  <%= @battle.stage_id %>
+</p>
+
+<p>
+  <strong>Rule:</strong>
+  <%= @battle.rule %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @battle.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_battle_path(@battle) %> |
+<%= link_to 'Back', battles_path %>
